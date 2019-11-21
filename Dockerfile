@@ -1,4 +1,4 @@
-FROM node:8 as builder
+FROM node:10 as builder
 
 ADD package.json /usr/src/app/
 WORKDIR /usr/src/app
