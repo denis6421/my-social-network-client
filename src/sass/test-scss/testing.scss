@@ -1,0 +1,19 @@
+.test {
+    margin:auto;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+
+    &__child {
+        height: 300px;
+        width: 300px;
+        background-color: pink; 
+
+        &__of-child {
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+    }
+}
+

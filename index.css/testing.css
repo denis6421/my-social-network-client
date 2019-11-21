@@ -1,0 +1,13 @@
+.test {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: black; }
+  .test__child {
+    height: 300px;
+    width: 300px;
+    background-color: pink; }
+    .test__child__of-child {
+      height: 100px;
+      width: 100px;
+      background-color: green; }
