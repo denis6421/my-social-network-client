@@ -11,3 +11,6 @@
    (when starting development open new terminal and type " yarn watch-sass " so your sass files will be complied to css on the fly)
 
 5. add script : "prebuild": "node-sass ./src/sass/main.scss ./src/index.css" will run automaticlly before build to complie the sass files into css
+
+
+*** all scss files should start with underscore for example: _testing.scss
