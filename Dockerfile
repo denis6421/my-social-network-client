@@ -7,7 +7,7 @@ COPY . .
 RUN yarn build
 
 FROM nginx:stable
-COPY --from=builder build/ /var/www/html
+COPY --from=builder /usr/src/app/build/ /var/www/html
 COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 ENTRYPOINT ["nginx","-g","daemon off;"]
