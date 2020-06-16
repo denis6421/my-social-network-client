@@ -28,7 +28,7 @@
     "validator": "^13.0.0"
   },
   "scripts": {
-    "start": "node server",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "prebuild": "node-sass ./src/sass/main.scss ./src/index.css",
     "test": "react-scripts test",
