@@ -1,3 +1,9 @@
+
+$primaryBtn: rgba(0,0,0, 0.2);
+
+
+
+
 .test {
     margin:auto;
     display: flex;
@@ -14,6 +20,11 @@
             height: 100px;
             width: 100px;
             background-color: green;
+        }
+        &__of-child-button {
+            height: 100px;
+            width: 100px;
+           background:  $primaryBtn;
         }
     }
 }

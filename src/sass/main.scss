@@ -1,1 +1,7 @@
-@import 'test-scss/_testing'
+@import 'main/index.scss';
+@import 'auth/auth.scss';
+@import 'parts/parts.scss';
+@import 'post/post.scss';
+@import 'feed/feed.scss';
+@import 'user-page/user-page.scss';
+@import 'navbar/navbar.scss';
